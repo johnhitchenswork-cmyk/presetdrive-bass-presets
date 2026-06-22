@@ -1,0 +1,25 @@
+# Secrets and credentials - never commit
+.env
+.env.*
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+AuthKey*
+credentials
+credentials.*
+*.crt
+*secret*
+*token*
+id_rsa
+id_rsa.*
+.netrc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+node_modules/
